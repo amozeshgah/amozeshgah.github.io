@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Farzane Ramazani</title>
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/datepicker3.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
+
+<!--Icons-->
+<script src="js/lumino.glyphs.js"></script>
+
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+<link  href="fonts/favicon1.ico"  rel="shortcut icon" />
+</head>
+
+<body dir="rtl">
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><span>فـــرزانه </span>رمـــضانی</a>
+				<ul class="user-menu">
+					<li class="dropdown pull-right">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> کاربر <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> مشخصات</a></li>
+							<li><a href="#"><svg class="glyph stroked gear"><use xlink:href="#stroked-gear"></use></svg> تنظیمات</a></li>
+							<li><a href="#"><svg class="glyph stroked cancel"><use xlink:href="#stroked-cancel"></use></svg> خروج</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+							
+		</div><!-- /.container-fluid -->
+	</nav>
+		
+	<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
+		<form role="search">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Search">
+			</div>
+		</form>
+		<ul class="nav menu">
+			<li class="active"><a href="index.html"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg> میزکار</a></li>
+			<li><a href="widgets.html"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg> ابزارها</a></li>
+			<li><a href="charts.html"><svg class="glyph stroked line-graph"><use xlink:href="#stroked-line-graph"></use></svg> نمودار</a></li>
+			<li><a href="tables.html"><svg class="glyph stroked table"><use xlink:href="#stroked-table"></use></svg> جداول</a></li>
+			<li><a href="forms.html"><svg class="glyph stroked pencil"><use xlink:href="#stroked-pencil"></use></svg> فرم ها</a></li>
+			<li><a href="panels.html"><svg class="glyph stroked app-window"><use xlink:href="#stroked-app-window"></use></svg>  پنل ها و هشدار ها</a></li>
+			<li><a href="icons.html"><svg class="glyph stroked star"><use xlink:href="#stroked-star"></use></svg> آیکن ها</a></li>
+			<li class="parent ">
+				
+				<ul class="children collapse" id="sub-item-1">
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Sub Item 1
+						</a>
+					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Sub Item 2
+						</a>
+					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Sub Item 3
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li role="presentation" class="divider"></li>
+			<li><a href="login.html"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> صفحه ورود</a></li>
+		</ul>
+
+	</div><!--/.sidebar-->
+		
+	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main div">			
+		<div class="row">
+			<ol class="breadcrumb">
+				<li><a href="#"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
+				<li class="active">آیکن ها</li>
+			</ol>
+		</div><!--/.row-->
+		
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="page-header">پنل ها و هشدار ها</h1>
+			</div>
+		</div><!--/.row-->
+				
+		
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>هشدار ها</h2>
+				<!--<div class="alert bg-primary" role="alert">
+					<svg class="glyph stroked empty-message"><use xlink:href="#stroked-empty-message"></use></svg> Welcome to the admin dashboard panel bootstrap template <a href="#" class="pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+				</div>
+				<div class="alert bg-success" role="alert">
+					<svg class="glyph stroked checkmark"><use xlink:href="#stroked-checkmark"></use></svg> Welcome to the admin dashboard panel bootstrap template <a href="#" class="pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+				</div>
+				<div class="alert bg-warning" role="alert">
+					<svg class="glyph stroked flag"><use xlink:href="#stroked-flag"></use></svg> Welcome to the admin dashboard panel bootstrap template <a href="#" class="pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+				</div>-->
+				<div class="alert bg-danger" role="alert">
+					<svg class="glyph stroked cancel"><use xlink:href="#stroked-cancel"></use></svg> به مدیریت پنل قالب خوش آمدید <a href="#" class="pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+				</div>
+			</div>
+		</div><!--/.row-->		
+		
+		
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>پنل های عمومی</h2>
+			</div>
+			<div class="col-md-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						پنل پیشفرض
+					</div>
+					<div class="panel-body">
+						<p>یک وب سایت ساده و معمولی برای طراحی و کد نویسی در نظر گرفته شده ولی کار کردن بر روی این وب سایت بسیار آموزنده خواهد بود. بنابراین مراحل را دنبال کنید و به صورت عملی یاد بگیرید و تجربه کنید.
+
+در زیر نمایی نهایی صفحه وب مورد نظر را می بینید..</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-4">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						پنل اولیه
+					</div>
+					<div class="panel-body">
+						<p>سعی شده است مراحل طراحی و کدنویسی این وب سایت به ساده ترین روش و برای افراد مبتدی توضیح داده شود ولی برای شروع احتیاج به دانش مقدماتی و آشنایی با برخی از نرم افزارها دارید:
+
+    نرم افزار فتو شاپ Photoshop یا ویرایشگرهای تصویر مشابه
+    نرم افزارهای تولید کد مانند Dreamweaver
+    آشنایی مقدماتی با کدهای html</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-4">
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						پنل موفقیت
+					</div>
+					<div class="panel-body">
+						<p>خوب برای شروع به محیط نرم افزار فتوشاپ می رویم و یک برگه با عرض و طول ۱۰۰۰px در ۱۲۰۰px ایجاد می کنیم . در اینجا سعی شده عرض مورد نظر بیشتر از عرض واقعی وب سایت در نظر گرفته شود تا محیط باز تری برای کار وجود داشته باشد و در انتها این برگه به اندازه واقعی خود در خواهد آمد.
+
+اگر با محیط نرم افزار فتوشاپ آشنایی کافی داشته باشید کار با این خود آموز برای شما بسیار راحت خواهد بود. برای سهولت در کار از خط کش و خط های کمکی استفاده میکنیم . مقیاس خط کش را برای Pixel تنظیم کنید (واحد اندازه گیری در طراحی وب سایت Pixel است) .</p>
+					</div>
+				</div>
+			</div>
+			
+		</div><!-- /.row -->
+			
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						پنل اطلاعات
+					</div>
+					<div class="panel-body">
+						<p>پس از نشانه گذاری مرزهای وب سایت در مرحله قبل به قسمت Header وب سایت می رسیم که یکی از مهمترین اجزاء تشکیل دهنده هر وب سایت است. شعار تبلیغاتی ، لوگو و تصاویر تبلیغاتی وب سایت شما در این قسمت قرار خواهد گرفت .با استفاده از ابزارها ( کلید میانبر U ) یک مستطیل به ارتفاع ۱۷۰ px و با رنگ #۲۳b6eb ایجاد کنید . سعی کنید که از نوار ابزار فتوشاپ برای اندازه گذاری دقیق اجزاء و همچنین چینش دقیق اجزاء در صفحه استفاده کنید .
+
+یک مستطیل دیگر مانند تصویر روی مستطیل اولیه خود ایجاد کنید به ارتفاع ۳۰px و رنگ #۵d5a5a ( مستطیل تیره رنگ در بالای header )</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="panel panel-warning">
+					<div class="panel-heading">
+						پنل هشدار
+					</div>
+					<div class="panel-body">
+						<p>لوگو یکی از اجزاء مهم تشکیل دهنده یک وب سایت است که معمولا باید گویای نوع فعالیت و خدمات وب سایت شما باشد .شما می توانید لوگوی خود را به صورت جدا گانه ایجاد نمایید و در قسمت کد نویسی به شما آموزش داده خواهد شد که چگونه آن را وارد وب سایت خود نمایید. در لینک زیر می توانید مطالب مفیدی را در مورد طراحی و استانداردهای یک لوگو بخوانید.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="panel panel-danger">
+					<div class="panel-heading">
+						پنل خطر
+					</div>
+					<div class="panel-body">
+						<p>می توان با توجه به تصاویر و با استفاده از مشخصات زیر محتویات و نوشته ها را نیز در جای مناسب قرار داد تا طرحی کلی و پیش فرض از صفحه وب برای ادامه کار بدست آید.این نکته در اینجا قابل ذکر است که ایجاد یک طرح گرافیکی قبل از شروع کد نویسی یک وب سایت خوبیهای فراوانی دارد که به چند نکته از اشاره می شود ایجاد یک نقشه راه برای اینکه بدانیم به کجا خواهیم رسید.استفاده از تصاویر طرح گرافیکی برای ساختن وب سایت. رفع ایراد ها و نواقص قبل از شروع به کد نویسی ( مخصوصا برای کار با مشتری ها …!؟ ) کار کردن بر روی یک طرح گرافیکی بسیار راحت تر از کد نویسی آن است</p>
+					</div>
+				</div>
+			</div>
+			
+		</div><!-- /.row -->
+		
+		
+		
+		
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>پنل های ابزار</h2>
+			</div>
+			
+			<div class="col-md-6">
+				<div class="panel panel-blue">
+					<div class="panel-heading dark-overlay">پنل ابی</div>
+					<div class="panel-body">
+						<p>تصاویر اضافی حذف می شوند و نامهای مناسبی برای قطعات برش داده شده انتخاب می شوند. انتخاب نامهای مناسب در راحتی و استاندارد کار شما بسیار تاثیر گذار هستند.</p>
+					</div>
+				</div>
+			</div><!--/.col-->
+			
+			<div class="col-md-6">
+				<div class="panel panel-teal">
+					<div class="panel-heading dark-overlay">پنل آبی تیره</div>
+					<div class="panel-body">
+						<p>برای شروع به کار کدنویسی برای وب سایت طراحی شده احتیاج به یک ویرایشگر کد داریم که در اینجا از نرم افزار DreamWeaver برای ایجاد و ویرایش کدها استفاده شده است. استفاده از این نرم افزار برای پیاده سازی و ساخت صفحات وب زیاد سخت نیست اما این هنر ، ذوق و سلیقه و همچنین تکنیک است که طراحان را از یکدیگر متمایز میکند. شما می توانید برای ایجاد و ویرایش کدها از نرم افزارهای دیگر نیز استفاده نمایید.(notepad ).</p>
+					</div>
+				</div>
+			</div><!--/.col-->
+			
+			<div class="col-md-6">
+				<div class="panel panel-orange">
+					<div class="panel-heading dark-overlay">پنل نارنجی</div>
+					<div class="panel-body">
+						<p>اولین مرحله ایجاد یک صفحه با نام index برای شروع است . بسیاری از ویرایشگرهای کد این تگ ها ی اصلی و اولیه را به صورت پیش فرض ایجاد می کنند. در زیر این تگها را ملاحظه می نمایید..</p>
+					</div>
+				</div>
+			</div><!--/.col-->
+			
+			<div class="col-md-6">
+				<div class="panel panel-red">
+					<div class="panel-heading dark-overlay">پنل قرمز</div>
+					<div class="panel-body">
+						<p>این بخش اولین و یکی از مهمترین اجزاء تشکیل دهنده صفحه وب است که از Logo , Tagline , Navigation تشکیل شده است ( لوگو ، شعار تبلیغاتی و منوها ) . در ابتدا کدها در بخش header به صورت زیر خواهند بود ..</p>
+					</div>
+				</div>
+			</div><!--/.col-->
+		</div><!--/.row-->	
+			
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>پنل های تب</h2>
+			</div>
+			
+			<div class="col-md-6">
+				<div class="panel panel-default">
+					<div class="panel-body tabs">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">زبانه 1</a></li>
+							<li><a href="#tab2" data-toggle="tab">زبانه 2</a></li>
+							<li><a href="#tab3" data-toggle="tab">زبانه3</a></li>
+						</ul>
+		
+						<div class="tab-content">
+							<div class="tab-pane fade in active" id="tab1">
+								<h4>زبانه 1</h4>
+								<p>در مرحله قبل در مورد استفاده از تگهای h2 و همچنین مزیت های آن بحث شد. برای ایجاد شعار تبلیغاتی به صورت پیش فرض و شکل دهی به آن طبق مراحل زیر عمل می کنیم. با نگاهی به طرح پیش فرض طراحی شده و نوع تگ های html استفاده شده باید راهی برای قرار دادن لوگو و شعار تبلیغاتی در کنار یکدیگر پیدا نمود .  </p>
+							</div>
+							<div class="tab-pane fade" id="tab2">
+								<h4>زبانه2</h4>
+								<p>منوها یکی از مهمترین اجزاء تشکیل دهنده هر وب سایت هستند که علاوه بر افزایش زیبایی باید به دسترسی پذیری وب سایت نیز کمک کنند و استفاده از آنها برای عموم مخاطبان بسیار ساده باشد. در طراحی های امروزی از لیستها ( تگهای ul ، li ) برای طراحی منوها استفاده می شود . با توجه به مرحله قبل و navigation طراحی شده به صورت پیش فرض از کدهای سی اس اس زیر برای طراحی ساختار navigation استفاده می نماییم. </p>
+							</div>
+							<div class="tab-pane fade" id="tab3">
+								<h4>زبانه3/h4/h4>
+								<p>در مرحله قبل و در قسمت لوگو از تگ h1 در داخل div برای جایگزینی لوگو استفاده شد است . تگ های h1 یکی از مهمترین تگها از نظر بهینه سازی سایت برای موتورهای جستجو هستند که در بالای صفحه و یا ابتدایی ترین خط در صفحه وب قرار میگیرند تا توضیحی هر چند کوتاه در مورد محتویات وب سایت شما باشند.عدم وجود این تگ شاید به نظر شما مشکلی را برای صفحه وب ایجاد نمی کند اما فقط در ظاهر..!؟ </p>
+							</div>
+						</div>
+					</div>
+				</div><!--/.panel-->
+			</div><!--/.col-->
+			
+			<div class="col-md-6">
+				<div class="panel panel-default">
+					<div class="panel-body tabs">
+					
+						<ul class="nav nav-pills">
+							<li class="active"><a href="#pilltab1" data-toggle="tab">زبانه1</a></li>
+							<li><a href="#pilltab2" data-toggle="tab">زبانه 2</a></li>
+							<li><a href="#pilltab3" data-toggle="tab">زبانه 3</a></li>
+						</ul>
+		
+						<div class="tab-content">
+							<div class="tab-pane fade in active" id="pilltab1">
+								<h4>زبانه 1</h4>
+								<p>بسیاری از نمایشگر های صفحات وب ( IE , FireFox ,Opera ,… ) به صورت پیش فرض padding و margin های متفاوتی را مورد استفاده قرار می دهند . به دلیل استاندارد سازی و یکسان سازی نمایش صفحات وب برای تمامی نمایشگرها تمامی این padding و margin ها به صورت یکسان در می آیند. </p>
+							</div>
+							<div class="tab-pane fade" id="pilltab2">
+								<h4>زبانه 2</h4>
+								<p>حالا همه چیز برای شروع به شکل دهی صفحه وب از بالا به پایین آماده است . برای شکل دادن به اولین قسمت این صفحه وب ( header ) از تصویر برش داده شده در بخش دوم برای تصویرپس زمینه استفاده خواهیم کرد.این تصویر درپس زمینه #main به صورت تکرار قرار می گیرد ، به دلیل اینکه خاصیت گسترش در تمامی رزولوشن ها و نمایشگرها را داشته باشد. </p>
+							</div>
+							<div class="tab-pane fade" id="pilltab3">
+								<h4>زبانه 3</h4>
+								<p>در مرحله قبل و در قسمت لوگو از تگ h1 در داخل div برای جایگزینی لوگو استفاده شد است . تگ های h1 یکی از مهمترین تگها از نظر بهینه سازی سایت برای موتورهای جستجو هستند که در بالای صفحه و یا ابتدایی ترین خط در صفحه وب قرار میگیرند تا توضیحی هر چند کوتاه در مورد محتویات وب سایت شما باشند.عدم وجود این تگ شاید به نظر شما مشکلی را برای صفحه وب ایجاد نمی کند اما فقط در ظاهر..!؟ </p>
+							</div>
+						</div>
+					</div>
+				</div><!--/.panel-->
+			</div><!-- /.col-->
+			
+		</div><!-- /.row -->
+		
+	</div><!--/.main-->
+
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/chart.min.js"></script>
+	<script src="js/chart-data.js"></script>
+	<script src="js/easypiechart.js"></script>
+	<script src="js/easypiechart-data.js"></script>
+	<script src="js/bootstrap-datepicker.js"></script>
+	<script>
+		!function ($) {
+			$(document).on("click","ul.nav li.parent > a > span.icon", function(){		  
+				$(this).find('em:first').toggleClass("glyphicon-minus");	  
+			}); 
+			$(".sidebar span.icon").find('em:first').addClass("glyphicon-plus");
+		}(window.jQuery);
+
+		$(window).on('resize', function () {
+		  if ($(window).width() > 768) $('#sidebar-collapse').collapse('show')
+		})
+		$(window).on('resize', function () {
+		  if ($(window).width() <= 767) $('#sidebar-collapse').collapse('hide')
+		})
+	</script>	
+</body>
+
+</html>
